@@ -1,0 +1,23 @@
+bin = [
+    { name = "september", path = "src/01_september/lesson_1/hello_world.rs" },
+    { name = "variables", path = "src/01_september/lesson_2/variables.rs" },
+    { name = "operace", path = "src/01_september/lesson_3/operace.rs" },
+    { name = "variables_cv", path = "src/01_september/lesson_3/variables_cv.rs" },
+    { name = "conditions", path = "src/01_september/lesson_4/conditions.rs" },
+    { name = "switch", path = "src/02_october/lesson_5/switch.rs" },
+    { name = "_while", path = "src/02_october/lesson_6/_while.rs" },
+    { name = "while_cv", path = "src/02_october/lesson_6/while_cv.rs" },
+    { name = "_for", path = "src/02_october/lesson_7/_for.rs" },
+    { name = "for_cv", path = "src/02_october/lesson_7/for_cv.rs" },
+    { name = "string", path = "src/03_november/lesson_9/string.rs" },
+    { name = "string_bonus", path = "src/03_november/lesson_9/string_bonus.rs" },
+    { name = "lesson_10_cviceni", path = "src/04_december/lesson_10/cviceni.rs" },
+]
+
+[package]
+name = "prg_2f_in_rust"
+edition = "2024"
+publish = false
+[dependencies]
+rand = "0.9.1"
+regex = "1.11.1"
